@@ -21,7 +21,7 @@
     }
     ?>
 
-    <form action="validacion/procesarformulario.php" method="post">
+    <form action="procesarformulario.php" method="post">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+">
 
